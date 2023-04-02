@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirTravel</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html"> <span>Air</span> Travel</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">Acceuil</a></li>
+            <li><a href="#a-propos">à propos</a></li>
+            <li><a href="#popular-destination">destinations</a></li>
+            <li><a href="#Formulaire">Formulaire</a></li>
+        </ul>
+        <a href="#" class="btn-reservation">Réserver Maintenant</a>
+
+        <div class="responsive-menu"></div>
+    </header>
+    <main>
+          <section id="home">
+            <h2>Nous suivre</h2>
+            <h4>Voyagez en Sécurité</h4>
+            <p>Avec notre agence votre voyage serra inoubliable</p>
+            <a href="#" class="btn-reservation home-btn">Réserver Maintenant</a>
+            <div class="slideshow">
+                <img src="images/img1.jpg">
+                <img src="images/img2.jpg">
+                <img src="images/img3.jpg">
+              </div>
+            <div class="find_trip">
+                <form action="">
+                    <div>
+                        <label>Pays</label>
+                        <input type="text" placeholder="Entrez un Pays">
+                    </div>
+                    <div>
+                        <label>Ville</label>
+                        <input type="text" placeholder="Entrez une ville">
+                    </div>
+                    <div>
+                        <label>Région</label>
+                        <input type="text" placeholder="Entrez une région">
+                    </div>
+                    <input type="submit" value="voir">
+                </form>
+                
+        </section>
+    
+        <section id="a-propos">
+            <h1 class="title">à propos</h1>
+            <div class="img-desc">
+               <div class="left">
+                    <video src="images/video.mp4" autoplay loop></video>
+               </div>
+                <div class="right">
+                    <h3>Nous voyageons pour chercher d'autres états, d'autres vies, d'autres, âmes.</h3>
+                    <a href="#">Lire Plus</a>
+                </div>
+            </div>
+            
+        </section>
+    
+        <section id="popular-destination">
+            <h1 class="title">destinations populaires</h1>
+            <div class="content">
+    
+                <div class="box">
+                    <img src="images/paris.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h4>Paris</h4>
+                            <p>Surnommée la ville lumière, Paris est sans nul doute l'une des plus belles villes du monde.</p>
+                            <p> Paris c'est aussi et surtout la ville qui symbolise le romantisme</p>
+                            <button><a href="https://fr.wikipedia.org/wiki/Paris"> Plus d'informations</a></button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="images/moscou.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h4>Moscou</h4>
+                            <p>Moscou est la capitale de la Russie et son centre politique,</p>
+                            <p>économique et culturel.</p>
+                            <button><a href="https://en.wikipedia.org/wiki/Moscow%22%3E"> Plus d'informations</a></button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="images/miami.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h4>Miami</h4>
+                            <p>Miami est une ville côtière des États-Unis située dans le Sud-Est</p>
+                            <p> de l'État de Floride.</p>
+                            <button><a href="https://en.wikipedia.org/wiki/Miami%22%3E"> Plus d'informations</a></button>
+                        </div>
+                    </div>
+                </div>
+    
+                 <div class="box">
+                    <img src="images/los-angeles.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h4>Los-Angeles</h4>
+                            <p>Los Angeles, surnommée la Cité des Anges,</p>
+                            <p>est la plus importante ville de Californie.</p>
+                            <button><a href="https://en.wikipedia.org/wiki/Los_Angeles%22%3E"> Plus d'informations</a></button>
+                        </div>
+                    </div>
+                </div>
+    
+                 <div class="box">
+                    <img src="images/rome.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h4>Rome</h4>
+                            <p>Rome, surnommée la « Ville éternelle », est la capitale de l'Italie </p>
+                            <p>et le chef-lieu de la région du Latium.</p>
+                            <button><a href="https://en.wikipedia.org/wiki/Rome%22%3E"> Plus d'informations</a></button>
+                        </div>
+                    </div>
+                </div>
+    
+                 <div class="box">
+                    <img src="images/tokyo.jpg" alt="">
+                    <div class="content">
+                        <div>
+                            <h4>Tokio</h4>
+                            <p>Située sur la côte est de l'île principale de l'archipel japonais</p>
+                            <p> Tokyo est l'une des quarante-sept préfectures du Japon.</p>
+                            <button><a href="https://en.wikipedia.org/wiki/Tokyo%22%3E"> Plus d'informations</a></button>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        
+        <section id="Formulaire">
+            <h1 class="title">formulaire</h1>
+    
+            <form id="myForm">
+                <div class="left-right">
+                    <div class="left">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <button type="submit" id="submitBtn">Envoyer</button>
+    
+            </div>
+            </div>
+    
+              </form>
+    
+        </section>
+    </main>
+    <footer>
+        <p>Réalisé par <span>Amine et Yassine</span></p>
+    </footer>
+
+    <script src="main.js"></script>
+
+
+
+</body>
+</html>
